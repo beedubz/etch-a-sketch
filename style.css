@@ -1,0 +1,22 @@
+.container {
+    display: flex; 
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+}
+
+.gridItem {
+    flex-basis: 25%;
+    height: 0;
+    padding-bottom: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+/*.gridItem.hovered {
+    background-color: lightcoral;
+}
